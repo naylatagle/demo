@@ -1,14 +1,64 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+{  
+   "cine":[  
+      {  
+         "logoCine":2130837588,
+         "nombreCine":"Hoyts Abasto",
+         "direccionCine":"Av. Corrientes 3247, CABA"
+      },
+      {  
+         "logoCine":2130837588,
+         "nombreCine":"Hoyts Unicenter",
+         "direccionCine":"Paraná 3745, Martínez, Buenos Aires"
+      },
+      {  
+         "logoCine":2130837601,
+         "nombreCine":"Village Recoleta",
+         "direccionCine":"Vicente López 2050, CABA"
+      }
+   ],
+   "pelicula":[  
+      {  
+         "logoPelicula":2130837600,
+         "tituloPelicula":"Titanic",
+         "generoPelicula":"Drama"
+      },
+      {  
+         "logoPelicula":2130837599,
+         "tituloPelicula":"Pulp Fiction",
+         "generoPelicula":"Suspenso"
+      },
+      {  
+         "logoPelicula":2130837587,
+         "tituloPelicula":"El Padrino",
+         "generoPelicula":"Drama/Policial"
+      }
+   ],
+   "cineinfo":[  
+      {  
+         "opcionPelicula":"Titanic",
+         "horarioPelicula":"12:30 | 14:15 | 16:30"
+      },
+      {  
+         "opcionPelicula":"Pulp Fiction",
+         "horarioPelicula":"12:30 | 14:15 | 16:30"
+      },
+      {  
+         "opcionPelicula":"El Padrino",
+         "horarioPelicula":"12:30 | 14:15 | 16:30"
+      }
+   ],
+   "peliculainfo":[  
+      {  
+         "opcionCine":"Hoyts Abasto",
+         "peliculaCIne":"12:30 | 14:15 | 16:30"
+      },
+      {  
+         "opcionCine":"Hoyts Unicenter",
+         "peliculaCine":"12:30 | 14:15 | 16:30"
+      },
+      {  
+         "opcionCine":"Village Recoleta",
+         "peliculaCine":"12:30 | 14:15 | 16:30"
+      }
+   ]
 }
